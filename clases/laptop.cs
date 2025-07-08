@@ -48,7 +48,7 @@ namespace actividad03.clases
 
         public string GetNumeroSerie(string codigoSeguridad)
         {
-            if (codigoSeguridad == "admin123")
+            if (codigoSeguridad == "castro.jav7")
             {
                 return numeroSerie;
             }
@@ -60,7 +60,7 @@ namespace actividad03.clases
 
         public void SetNumeroSerie(string nuevoNumeroSerie, string codigoSeguridad)
         {
-            if (codigoSeguridad == "admin123")
+            if (codigoSeguridad == "castro.jav7")
             {
                 numeroSerie = nuevoNumeroSerie;
             }
@@ -71,4 +71,5 @@ namespace actividad03.clases
         }
     }
 }
+
 
